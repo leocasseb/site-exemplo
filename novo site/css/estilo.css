@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Permanent+Marker&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "Libre Baskerville", serif;
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background-color: cadetblue;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 10%;
+    flex: 20%;
+
+    text-align: center;
+}
+
+.logo h1{
+    font-family: "Permanent Marker", cursive;
+    font-size: 30px;
+    line-height: 30px;
+    color:#180f4a;
+}
+
+.menu{
+    flex: 70%;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a{
+    padding: 20px 16px;
+    font-size: 20px;
+    color:#180f4a;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: #ffffff;
+    border-top: 4px solid #180f4a;
+}
+
+#botao-fale-conosco{
+    background-color: #180f4a;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 10px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#botao-fale-conosco:hover{
+    border: none;
+    background-color: white;
+    color: #180f4a;
+}
+
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    height: 600px;
+    background-color: gray;
+}
+
+.headline{
+    margin-left: 10%;
+    flex: 40%;
+}
+
+.img-headline{
+    margin-right: 10%;
+    flex: 40%;
+}
